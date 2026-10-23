@@ -9,14 +9,14 @@ preco = float(input("preço unitario dos produtos "))
 
 
 #2% de desconto
-if quantidade >= 5:
-    desconto = preco * 0.20
+if quantidade == 5:
+    desconto = preco * 0.02
 
 #desconto 3%
 elif quantidade >= 6 and 10:
-    desconto = preco  * 0.30
+    desconto = preco  * 0.03
 else:
-    desconto = preco * 0.50
+    desconto = preco * 0.05
 
 
 
